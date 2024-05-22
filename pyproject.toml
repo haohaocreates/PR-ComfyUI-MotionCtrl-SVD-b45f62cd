@@ -1,0 +1,15 @@
+[project]
+name = "comfyui-motionctrl-svd"
+description = "Nodes: Download the weights of MotionCtrl-SVD [a/motionctrl_svd.ckpt](https://huggingface.co/TencentARC/MotionCtrl/blob/main/motionctrl_svd.ckpt) and put it to ComfyUI/models/checkpoints"
+version = "1.0.0"
+license = "LICENSE"
+dependencies = ["Pytorch-Lightning==1.9.0", "decord", "kornia", "timm", "open_clip_torch", "av", "omegaconf", "transformers", "einops", "scikit-learn", "taming-transformers-rom1504", "pandas", "fairscale", "psutil==5.9.5", "annotated-types==0.5.0", "plotly", "imageio==2.14.1", "imageio-ffmpeg==0.4.7", "opencv-python==4.8.0.74", "moviepy", "Pillow", "tqdm", "webdataset", "Fire", "natsort", "wandb", "clip @ git+https://github.com/openai/CLIP.git"]
+
+[project.urls]
+Repository = "https://github.com/chaojie/ComfyUI-MotionCtrl-SVD"
+#  Used by Comfy Registry https://comfyregistry.org
+
+[tool.comfy]
+PublisherId = ""
+DisplayName = "ComfyUI-MotionCtrl-SVD"
+Icon = ""
